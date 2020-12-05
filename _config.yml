@@ -1,0 +1,270 @@
+# Site
+# repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Balázs Sándor
+title: Software & Data Engineer 
+email: sb.sandorbalazs@gmail.com
+website: balazssandor.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  balazssandor
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: balazssandor
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I'm a software and data engineer with experience in the German automotive and the US food ordering industries. 
+  I've come across quite some technologies over the years from the legacy code bases running on own server infrastructures to new technologies maintained in the cloud.
+  In my work my main focus is delivering products and features that are maintainable and use well chosen technologies. 
+  During this time I've also gained teamwork, leadership and team building skills. 
+  Beside work for the clients/employers I also enjoy building personal projects in my spare time.
+
+  I am most skilled in <mark>Java</mark>, <mark>Scala</mark>, <mark>Python</mark>, <mark>AWS</mark>, <mark>Apache Spark</mark>. 
+
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: GRUBHUB
+        link: grubhub.com
+        link_text: grubhub.com
+        sub_title: Senior Software Engineer 
+        caption: September 2017 - Present
+        description: | # this will include new lines to allow paragraphs
+            Working for the biggest online food ordering company from the US as team augmentation and 
+            using microservices with Java 8 and data processing with Scala and Python together with Apache Spark)
+
+
+            Technologies, tools: Java 8, Scala, Python, Apache Spark, Amazon EMR, Amazon S3, Amazon SQS, Amazon Lambda, AWS Glue, AWS Athena, IntelliJ, Spinnaker, Jenkins, Git, Gradle, Splunk, Datadog, Guice, Guava, Lombok, Braze (AppBoy)
+
+
+            Built microservices, jobs and tools:
+
+              
+            <mark>Braze API Monitor</mark>
+
+            Lambda running on a schedule reporting to Datadog the number of remaining requests in an hour to Braze.
+
+            <mark>Prospects</mark>
+
+            Microservice for managing prospect diners.
+
+            <mark>Codes Cache</mark>
+
+            Caching solutions for storing big amounts of promotional codes. Tech: Java 8, Spring, AWS SQS
+
+            <mark>Diner Loyalty</mark>
+            
+            Migrate & transform data from an acquired food ordering company and bring it into our data lake
+            (Scala, Apache Spark) - ETLs, batch processing
+
+            <mark>Recommendations Engine</mark>
+            - Implement batch processing jobs with Apache Spark and Scala
+            - Batch jobs run on Amazon EMR, data is stored on Amazon S3
+            - Data modeling in Cassandra
+            - REST web service implementation
+
+
+            I am also involved in growing the Java & Scala team with additional team lead responsibilities.
+
+      - layout: left
+        title: MHP - A Porsche Company 
+        link: mhp.com
+        link_text: mhp.com
+        sub_title: Consultant (Java)
+        caption: September 2014 - August 2017
+        description: | # this will include new lines to allow paragraphs
+            Technologies, tools: Java 7, JAX-RS, REST Web Services, Apache Tomcat, SOAP Web Services, Struts, JSP, DB2, MySQL, LDAP, Unix, Ant, Maven, Gradle, Splunk, Nagios, ITSM Remedy, JIRA, Confluence, Public Key Infrastructure (PKI), SAML 2.0, SSO, Tortoise SVN, Eclipse, Windows
+
+            Client: Porsche AG
+
+            - Implement new features for web applications 
+            - Implement web services, including internal SSO service with SAML 2.0
+            - Fix bugs in legacy code
+            - Migrate web services from SOAP to REST
+            - Review the code of colleagues
+            - Assist Service Providers to integrate their application to SAML 2.0 
+            - Train new colleagues on the project (Ludwigsburg, DE and Cluj, RO)
+            - Write system specifications and documentations
+            - Manage deployments/releases of pieces of software
+            - Navigate and work with UNIX servers in our own infrastructure
+
+            Client: Heinrich Schmid GmbH
+
+            - Implement SAP middle tier SOAP web services
+            - Write system specifications and documentations
+
+      - layout: left
+        title: msg systems ag
+        link: www.msg.group
+        link_text: msg.group
+        sub_title: Java Trainee
+        caption: July 2014 - August 2014
+        description: | # this will include new lines to allow paragraphs
+          Java Training on AWT, Swing, JCF, JDBC, Hibernate, Java Servlet API, JSP, Ant, Maven, JavaEE, EJB, JPA, JPQL, AOP with AspectJ, Glassfish, WSDL, SOAP, JAX-WS, JUnit, Mockito, JSF
+
+      - layout: left
+        title: evoline (Accenture)
+        link: www.accenture.com
+        link_text: accenture.com
+        sub_title: .NET Trainee
+        caption: July 2013 - September 2013
+        description: | # this will include new lines to allow paragraphs
+          Research & Development on Automatic UI Testing & Continuous Integration
+
+          Technologies, tools: Selenium, C#, NUnit, Jenkins, TFS
+
+
+          Put in practice the possibilities offered by Selenium on automated GUI testing.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Babeș-Bolyai University
+        caption: 2011 - 2014
+        sub_title: BSc Computer Science
+        description: | # this will include new lines to allow paragraphs
+          <mark>Thesis</mark>
+
+          *SplitBill* - Application for Tracking Everyday Expenses By Taking Pictures of Receipts
+
+          Mobile app with REST API in backend.
+
+          Tech: Java, Spring Boot, MySQL, Apache Tomcat, Hibernate ORM, Tesseract OCR, Maven, Gradle, Swagger, Android, Retrofit 2
+
+          [Usage demo](https://goo.gl/Bp6hSf) (turn on English subtitles)
+
+          [Technical presentation](https://goo.gl/SbtjfZ)
+
+
+          <mark>Competition</mark>
+
+          We've participated in Microsoft Imagine Cup - Games Competition in 2013 with "Team Impact" with a 3D game implemented in C# with XNA.
+          
+          [Gameplay demo](http://www.youtube.com/watch?v=Hokp81p78X0)
+          
+          [Trailer](http://www.youtube.com/watch?v=34qKtvs_GU0)
+
+
+          <mark>Fields of study</mark>
+          - Computer science fundamentals (Fundamentals of Programming, Mathematical Foundations of Computer Science, Algorithms and Data Structures, Object-Oriented Programming, Advanced Programming Methods, Functional and Logic Programming, Algorithms of Graph Theory, Formal Languages and Compiler Design)
+          - Fundamentals of mathematics (Mathematical Analysis, Algebra, Geometry, Probability Theory and Statistics, Numerical Calculus, Dynamical Systems)
+          - Software engineering (Software Engineering, Team and Individual Project, Software Verification and Validation, Human-Computer Interaction, Mobile Systems, CASE Tools, Design Patterns)
+          - Data modeling and processing (Databases, Transaction Management and Distributed Databases, Spatial Databases)
+          - Computer systems and architectures (Computer System Architecture, Operating systems, Distributed Operating Systems, Computer Networks)
+          - Artificial intelligence (AI, Intelligent Robots, Evolutionary Algorithms, Automated Theorem Proving)
+          - Programming technologies (Programming Systems and Environments, Web Programming)
+          - Interdisciplinarity (Multimedia, Image processing, Modeling and simulation)
+
+      - layout: left
+        title: Babeș-Bolyai University
+        caption: 2008 - 2011
+        sub_title: BSc Philosophy
+        description: | # this will include new lines to allow paragraphs
+          <mark>Thesis</mark>
+
+          "Human Relations Mediated By Technology"
+
+          Based on a rich English bibliography on theoretical projections of technology.
+
+
+          <mark>Fields of study</mark>
+          - Research Methods and Text Production
+          - Semiology - Theories of Sign and Interpretation
+          - Aesthetics, Contemporary Theories of Art
+          - Ethics, Applied Ethics
+          - Theory of Argumentation
+          - Symbolic Logic - Propositional Logic, Symbolic Logic - Predicate Logic
+          - Political Philosophy, Philosophy of Religion
+          - Philosophical Hermeneutics
+          - Ontology, Theory of Knowledge, Metaphysics
+
+      - layout: left
+        title: Bolyai Farkas Theoretical High School
+        caption: 2004 - 2008
+        sub_title: Baccalaureate - Mathematics & Intensive Informatics
+        description: | # this will include new lines to allow paragraphs
+          I have attended several competitions in computer science and mathematics.
+            
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software engineering some of my other interests and hobbies are:
+      - Scuba diving, skiing, trail running, kayaking/rafting, swimming 
+      - Guitar playing
+      - Philosophy, sociology
+
+# Look at this cool image 
+      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
