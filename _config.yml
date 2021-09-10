@@ -81,13 +81,28 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: BMW Group
+        link: bmwgroup.com
+        link_text: bmwgroup.com
+        sub_title: AWS Data Engineer 
+        caption: April 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+            Working for BMW as a contractor on
+              
+            <mark>Cloud Data Hub - Applied Connected Vehicle</mark>
+
+            Delivering AWS solutions for data pipelines and exposing data over API-s.
+            Writing Infrastructure as Code with <mark>Terraform</mark>, building API-s & ETL-s with <mark>Python</mark>, <mark>Scala</mark> & <mark>Apache Spark</mark>.
+            Heavily using a set of the AWS resources: Lambda, Gateway, Athena, Glue, Step Functions / State Machines, DynamoDB, S3, CodePipeline, CodeBuild and more.
+
+      - layout: left
         title: GRUBHUB
         link: grubhub.com
         link_text: grubhub.com
         sub_title: Senior Software Engineer 
-        caption: September 2017 - Present
+        caption: September 2017 - April 2021
         description: | # this will include new lines to allow paragraphs
-            Working for the biggest online food ordering company from the US as team augmentation and 
+            Worked for the biggest online food ordering company from the US as team augmentation and 
             using microservices with Java 8 and data processing with Scala and Python together with Apache Spark)
 
 
