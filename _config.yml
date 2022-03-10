@@ -81,11 +81,24 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: VF Corporation
+        link: vfc.com
+        link_text: vfc.com
+        sub_title: AWS Data Engineer 
+        caption: November 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+            Working for VFC as a contractor on
+
+            <mark>VF Analytics Platform</mark>
+
+            Delivering AWS solutions for data pipelines.
+
+      - layout: left
         title: BMW Group
         link: bmwgroup.com
         link_text: bmwgroup.com
         sub_title: AWS Data Engineer 
-        caption: April 2021 - Present
+        caption: April 2021 - October 2021
         description: | # this will include new lines to allow paragraphs
             Working for BMW as a contractor on
               
