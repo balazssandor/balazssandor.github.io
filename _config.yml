@@ -48,11 +48,11 @@ linkedin_username: balazssandor
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a software and data engineer with experience in the German automotive and the US food ordering industries. 
+  I'm a software and data engineer with experience in the German automotive, the US food ordering and in global e-commerce industries. 
   I've come across quite some technologies over the years from the legacy code bases running on own server infrastructures to new technologies maintained in the cloud.
   In my work my main focus is delivering products and features that are maintainable and use well chosen technologies. 
   During this time I've also gained teamwork, leadership and team building skills. 
-  Beside work for the clients/employers I also enjoy building personal projects in my spare time.
+  Beside work for the clients/employers I also enjoy building personal projects in my spare time - I am enjoying a lot Natural Language Processing (NLP).
 
   I am most skilled in <mark>Java</mark>, <mark>Scala</mark>, <mark>Python</mark>, <mark>AWS</mark>, <mark>Apache Spark</mark>. 
 
@@ -80,35 +80,33 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top
         title: VF Corporation
         link: vfc.com
         link_text: vfc.com
         sub_title: AWS Data Engineer 
         caption: November 2021 - Present
         description: | # this will include new lines to allow paragraphs
-            Working for VFC as a contractor on
+            Working for VFC as a contractor on <mark>VF Analytics Platform</mark>
+            
+            Delivering AWS solutions for data pipelines. Building out a data lake in Redshift for brands like The North Face, Vans, Timberland, Dickies, Smartwool, icebreaker.
+            Transforming data into value through dashboards, which can provide as a compass for business decisions.
 
-            <mark>VF Analytics Platform</mark>
 
-            Delivering AWS solutions for data pipelines.
-
-      - layout: left
+      - layout: top
         title: BMW Group
         link: bmwgroup.com
         link_text: bmwgroup.com
         sub_title: AWS Data Engineer 
         caption: April 2021 - October 2021
         description: | # this will include new lines to allow paragraphs
-            Working for BMW as a contractor on
-              
-            <mark>Cloud Data Hub - Applied Connected Vehicle</mark>
+            Working for BMW as a contractor on <mark>Cloud Data Hub - Applied Connected Vehicle</mark>
 
             Delivering AWS solutions for data pipelines and exposing data over API-s.
             Writing Infrastructure as Code with <mark>Terraform</mark>, building API-s & ETL-s with <mark>Python</mark>, <mark>Scala</mark> & <mark>Apache Spark</mark>.
             Heavily using a set of the AWS resources: Lambda, Gateway, Athena, Glue, Step Functions / State Machines, DynamoDB, S3, CodePipeline, CodeBuild and more.
 
-      - layout: left
+      - layout: top
         title: GRUBHUB
         link: grubhub.com
         link_text: grubhub.com
@@ -118,40 +116,32 @@ content:
             Worked for the biggest online food ordering company from the US as team augmentation and 
             using microservices with Java 8 and data processing with Scala and Python together with Apache Spark)
 
-
             Technologies, tools: Java 8, Scala, Python, Apache Spark, Amazon EMR, Amazon S3, Amazon SQS, Amazon Lambda, AWS Glue, AWS Athena, IntelliJ, Spinnaker, Jenkins, Git, Gradle, Splunk, Datadog, Guice, Guava, Lombok, Braze (AppBoy)
 
-
             Built microservices, jobs and tools:
-
               
-            <mark>Braze API Monitor</mark>
-
+            - <mark>Braze API Monitor</mark> -
             Lambda running on a schedule reporting to Datadog the number of remaining requests in an hour to Braze.
 
-            <mark>Prospects</mark>
-
+            - <mark>Prospects</mark> -
             Microservice for managing prospect diners.
 
-            <mark>Codes Cache</mark>
-
+            - <mark>Codes Cache</mark> -
             Caching solutions for storing big amounts of promotional codes. Tech: Java 8, Spring, AWS SQS
 
-            <mark>Diner Loyalty</mark>
-            
+            - <mark>Diner Loyalty</mark> -
             Migrate & transform data from an acquired food ordering company and bring it into our data lake
             (Scala, Apache Spark) - ETLs, batch processing
 
-            <mark>Recommendations Engine</mark>
-            - Implement batch processing jobs with Apache Spark and Scala
-            - Batch jobs run on Amazon EMR, data is stored on Amazon S3
-            - Data modeling in Cassandra
-            - REST web service implementation
+            - <mark>Recommendations Engine</mark>
+              - Implement batch processing jobs with Apache Spark and Scala
+              - Batch jobs run on Amazon EMR, data is stored on Amazon S3
+              - Data modeling in Cassandra
+              - REST web service implementation
 
+            Involved in growing the Java & Scala team with additional team lead responsibilities.
 
-            I am also involved in growing the Java & Scala team with additional team lead responsibilities.
-
-      - layout: left
+      - layout: top
         title: MHP - A Porsche Company 
         link: mhp.com
         link_text: mhp.com
@@ -160,8 +150,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             Technologies, tools: Java 7, JAX-RS, REST Web Services, Apache Tomcat, SOAP Web Services, Struts, JSP, DB2, MySQL, LDAP, Unix, Ant, Maven, Gradle, Splunk, Nagios, ITSM Remedy, JIRA, Confluence, Public Key Infrastructure (PKI), SAML 2.0, SSO, Tortoise SVN, Eclipse, Windows
 
-            Client: Porsche AG
-
+            <mark>Client: Porsche AG</mark>
             - Implement new features for web applications 
             - Implement web services, including internal SSO service with SAML 2.0
             - Fix bugs in legacy code
@@ -173,12 +162,11 @@ content:
             - Manage deployments/releases of pieces of software
             - Navigate and work with UNIX servers in our own infrastructure
 
-            Client: Heinrich Schmid GmbH
-
+            <mark>Client: Heinrich Schmid GmbH</mark>
             - Implement SAP middle tier SOAP web services
             - Write system specifications and documentations
 
-      - layout: left
+      - layout: top
         title: msg systems ag
         link: www.msg.group
         link_text: msg.group
@@ -187,7 +175,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Java Training on AWT, Swing, JCF, JDBC, Hibernate, Java Servlet API, JSP, Ant, Maven, JavaEE, EJB, JPA, JPQL, AOP with AspectJ, Glassfish, WSDL, SOAP, JAX-WS, JUnit, Mockito, JSF
 
-      - layout: left
+      - layout: top
         title: evoline (Accenture)
         link: www.accenture.com
         link_text: accenture.com
@@ -198,13 +186,12 @@ content:
 
           Technologies, tools: Selenium, C#, NUnit, Jenkins, TFS
 
-
           Put in practice the possibilities offered by Selenium on automated GUI testing.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top
         title: Babeș-Bolyai University
         caption: 2011 - 2014
         sub_title: BSc Computer Science
@@ -241,7 +228,7 @@ content:
           - Programming technologies (Programming Systems and Environments, Web Programming)
           - Interdisciplinarity (Multimedia, Image processing, Modeling and simulation)
 
-      - layout: left
+      - layout: top
         title: Babeș-Bolyai University
         caption: 2008 - 2011
         sub_title: BSc Philosophy
@@ -264,7 +251,7 @@ content:
           - Philosophical Hermeneutics
           - Ontology, Theory of Knowledge, Metaphysics
 
-      - layout: left
+      - layout: top
         title: Bolyai Farkas Theoretical High School
         caption: 2004 - 2008
         sub_title: Baccalaureate - Mathematics & Intensive Informatics
