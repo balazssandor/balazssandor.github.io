@@ -102,6 +102,11 @@ content:
         description: | # this will include new lines to allow paragraphs
             Working for BMW as a contractor on <mark>Cloud Data Hub - Applied Connected Vehicle</mark>
 
+            BMW Group decided to re-architect and migrate its on-premises data lake to the cloud using Amazon Web Services (AWS) in order to innovate and scale for its global stakeholder demand. The company’s Cloud Data Hub (CDH) processes and combines anonymized data from vehicle sensors and other sources across the enterprise to make it simple for internal teams to create customer-facing and internal applications.
+
+            AWS Case Study: https://aws.amazon.com/solutions/case-studies/innovators/bmw/
+
+            TECHNICALLY
             Delivering AWS solutions for data pipelines and exposing data over API-s.
             Writing Infrastructure as Code with <mark>Terraform</mark>, building API-s & ETL-s with <mark>Python</mark>, <mark>Scala</mark> & <mark>Apache Spark</mark>.
             Heavily using a set of the AWS resources: Lambda, Gateway, Athena, Glue, Step Functions / State Machines, DynamoDB, S3, CodePipeline, CodeBuild and more.
