@@ -53,7 +53,9 @@ about_content: | # this will include new lines to allow paragraphs
   In my work my main focus is delivering products and features that are maintainable and use well chosen technologies. 
   During this time I've also gained teamwork, leadership and team building skills. 
   Beside work for the clients/employers I also enjoy building personal projects in my spare time - I am enjoying a lot Natural Language Processing (NLP).
-
+  
+  Since recent developments in AI - 2024 - I invest significant time in following and experimenting with current trends and architecture solutions. 
+  
   I am most skilled in <mark>Java</mark>, <mark>Scala</mark>, <mark>Python</mark>, <mark>AWS</mark>, <mark>Apache Spark</mark>. 
 
 
@@ -91,7 +93,8 @@ content:
             
             Delivering AWS solutions for data pipelines. Building out a data lake in Redshift for brands like The North Face, Vans, Timberland, Dickies, Smartwool, icebreaker.
             Transforming data into value through dashboards, which can provide as a compass for business decisions.
-
+          
+            In 2025 work is happening in both Azure Databricks and on the AWS front. I am focused on data engineering and generative AI.
 
       - layout: top
         title: BMW Group
