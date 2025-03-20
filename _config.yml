@@ -46,7 +46,7 @@ linkedin_username: balazssandor
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   I'm a software and data engineer with experience in the German automotive, the US food ordering and in global e-commerce industries. 
   I've come across quite some technologies over the years from the legacy code bases running on own server infrastructures to new technologies maintained in the cloud.
