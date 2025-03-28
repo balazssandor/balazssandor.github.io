@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balázs Sándor - Software & Data Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4C1RKZ9MLK"></script>
+
+    <!-- External CSS and JS -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="scroll-progress"></div>
+    <button class="theme-toggle" onclick="toggleTheme(); trackClick('UI', 'Toggle', 'Theme')">☀️</button>
+
+    <header>
+        <div class="container header-container">
+            <div class="profile-image">
+                <div class="profile-image-placeholder">
+                    <div style="text-align: center;">
+                      <img src="images/profile.png" style="width: 150px; height: 150px;">
+                    </div>
+                </div>
+            </div>
+            <div class="header-content">
+                <h1>Balázs Sándor</h1>
+                <h2>Software & Data Engineer</h2>
+
+                <div class="contact-info">
+
+                    <a href="https://github.com/balazssandor" target="_blank" onclick="trackClick('Contact', 'GitHub', 'Header')" class="contact-link github" title="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/balazssandor" target="_blank" onclick="trackClick('Contact', 'LinkedIn', 'Header')" class="contact-link linkedin" title="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+
+                    <a href="mailto:sb.sandorbalazs@gmail.com" onclick="trackClick('Contact', 'Email', 'Header')" class="contact-link email" title="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span>E-mail</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h3 class="section-title">About Me</h3>
+            <p>As a seasoned software and data engineer, I bridge the gap between technical innovation and business value across diverse industries. From automotive to e-commerce, I've navigated the full spectrum of technological environments—from legacy systems to cutting-edge cloud architectures. My engineering philosophy centers on creating maintainable, thoughtfully designed solutions that deliver lasting impact.</p>
+
+            <p>My expertise spans the entire data lifecycle, transforming raw information into actionable business intelligence through well-architected pipelines and intuitive dashboards. Beyond technical implementation, I've cultivated leadership skills through building and guiding cross-functional teams toward shared objectives.</p>
+
+            <p>With a passion for natural language processing (NLP) that extends into my personal projects, I'm currently immersed in the rapidly evolving AI landscape, tracking emerging trends and exploring innovative architectural approaches. In 2024, my focus has expanded to include generative AI technologies and their practical applications within enterprise environments.</p>
+
+            <div class="skills">
+                <p>Core technical expertise:</p>
+                <div class="skill-badges">
+                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Java')">Java</span>
+                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Scala')">Scala</span>
+                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Python')">Python</span>
+                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'AWS')">AWS</span>
+                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Apache Spark')">Apache Spark</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-previews">
+          <div class="preview-item" onclick="scrollToSection('experience')">
+            <div class="preview-icon">💼</div>
+            <div class="preview-title">Experience</div>
+            <div class="preview-desc">VF Corporation, BMW Group, GRUBHUB & more</div>
+          </div>
+          <div class="preview-item" onclick="scrollToSection('education')">
+            <div class="preview-icon">🎓</div>
+            <div class="preview-title">Education</div>
+            <div class="preview-desc">Computer Science & Philosophy</div>
+          </div>
+          <div class="preview-item" onclick="scrollToSection('more')">
+            <div class="preview-icon">🏄‍♂️</div>
+            <div class="preview-title">More</div>
+            <div class="preview-desc">Interests & Hobbies</div>
+          </div>
+        </div>
+
+
+        <section id="experience">
+            <h3 class="section-title">Experience</h3>
+
+            <div class="experience-item animate-in">
+                <div class="experience-header">
+                    <div class="company-name">VF Corporation</div>
+                    <div class="job-title">Cloud Data Engineer</div>
+                    <div class="duration">November 2021 - Present</div>
+                    <div class="website">vfc.com</div>
+                </div>
+                <div class="description">
+                    <p>Working for VFC as a contractor on VF Analytics Platform</p>
+                    <p>Delivering AWS solutions for data pipelines. Building out a data lake in Redshift for brands like The North Face, Vans, Timberland, Dickies, Smartwool, icebreaker. Transforming data into value through dashboards, which can provide as a compass for business decisions.</p>
+                    <p>In 2025 work is happening in both Azure Databricks and on the AWS front. I am focused on data engineering and generative AI.</p>
+                </div>
+            </div>
+
+            <div class="experience-item animate-in">
+                <div class="experience-header">
+                    <div class="company-name">BMW Group</div>
+                    <div class="job-title">AWS Data Engineer</div>
+                    <div class="duration">April 2021 - October 2021</div>
+                    <div class="website">bmwgroup.com</div>
+                </div>
+                <div class="description">
+                    <p>Working for BMW as a contractor on Cloud Data Hub - Applied Connected Vehicle</p>
+                    <p>BMW Group decided to re-architect and migrate its on-premises data lake to the cloud using Amazon Web Services (AWS) in order to innovate and scale for its global stakeholder demand. The company's Cloud Data Hub (CDH) processes and combines anonymized data from vehicle sensors and other sources across the enterprise to make it simple for internal teams to create customer-facing and internal applications.</p>
+                    <p>AWS Case Study: <a href="https://aws.amazon.com/solutions/case-studies/innovators/bmw/" target="_blank" onclick="trackClick('Link', 'External', 'BMW Case Study')">https://aws.amazon.com/solutions/case-studies/innovators/bmw/</a></p>
+                    <p>Delivering AWS solutions for data pipelines and exposing data over API-s. Writing Infrastructure as Code with Terraform, building API-s & ETL-s with Python, Scala & Apache Spark. Heavily using a set of the AWS resources: Lambda, Gateway, Athena, Glue, Step Functions / State Machines, DynamoDB, S3, CodePipeline, CodeBuild and more.</p>
+                </div>
+            </div>
+
+            <div class="experience-item animate-in">
+                <div class="experience-header">
+                    <div class="company-name">GRUBHUB</div>
+                    <div class="job-title">Senior Software Engineer</div>
+                    <div class="duration">September 2017 - April 2021</div>
+                    <div class="website">grubhub.com</div>
+                </div>
+                <div class="description">
+                    <p>Worked for the biggest online food ordering company from the US as team augmentation and using microservices with Java 8 and data processing with Scala and Python together with Apache Spark)</p>
+                    <div class="technologies">
+                        Technologies, tools: Java 8, Scala, Python, Apache Spark, Amazon EMR, Amazon S3, Amazon SQS, Amazon Lambda, AWS Glue, AWS Athena, IntelliJ, Spinnaker, Jenkins, Git, Gradle, Splunk, Datadog, Guice, Guava, Lombok, Braze (AppBoy)
+                    </div>
+
+                    <p>Built microservices, jobs and tools:</p>
+                    <ul>
+                        <li>Braze API Monitor - Lambda running on a schedule reporting to Datadog the number of remaining requests in an hour to Braze.</li>
+                        <li>Prospects - Microservice for managing prospect diners.</li>
+                        <li>Codes Cache - Caching solutions for storing big amounts of promotional codes. Tech: Java 8, Spring, AWS SQS</li>
+                        <li>Diner Loyalty - Migrate & transform data from an acquired food ordering company and bring it into our data lake (Scala, Apache Spark) - ETLs, batch processing</li>
+                        <li>Recommendations Engine
+                            <ul>
+                                <li>Implement batch processing jobs with Apache Spark and Scala</li>
+                                <li>Batch jobs run on Amazon EMR, data is stored on Amazon S3</li>
+                                <li>Data modeling in Cassandra</li>
+                                <li>REST web service implementation</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>Involved in growing the Java & Scala team with additional team lead responsibilities.</p>
+                </div>
+            </div>
+
+            <div class="experience-item animate-in">
+                <div class="experience-header">
+                    <div class="company-name">MHP - A Porsche Company</div>
+                    <div class="job-title">Consultant (Java)</div>
+                    <div class="duration">September 2014 - August 2017</div>
+                    <div class="website">mhp.com</div>
+                </div>
+                <div class="description">
+                    <div class="technologies">
+                        Technologies, tools: Java 7, JAX-RS, REST Web Services, Apache Tomcat, SOAP Web Services, Struts, JSP, DB2, MySQL, LDAP, Unix, Ant, Maven, Gradle, Splunk, Nagios, ITSM Remedy, JIRA, Confluence, Public Key Infrastructure (PKI), SAML 2.0, SSO, Tortoise SVN, Eclipse, Windows
+                    </div>
+
+                    <p>Client: Porsche AG</p>
+                    <ul>
+                        <li>Implement new features for web applications</li>
+                        <li>Implement web services, including internal SSO service with SAML 2.0</li>
+                        <li>Fix bugs in legacy code</li>
+                        <li>Migrate web services from SOAP to REST</li>
+                        <li>Review the code of colleagues</li>
+                        <li>Assist Service Providers to integrate their application to SAML 2.0</li>
+                        <li>Train new colleagues on the project (Ludwigsburg, DE and Cluj, RO)</li>
+                        <li>Write system specifications and documentations</li>
+                        <li>Manage deployments/releases of pieces of software</li>
+                        <li>Navigate and work with UNIX servers in our own infrastructure</li>
+                    </ul>
+
+                    <p>Client: Heinrich Schmid GmbH</p>
+                    <ul>
+                        <li>Implement SAP middle tier SOAP web services</li>
+                        <li>Write system specifications and documentations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item animate-in">
+                <div class="experience-header">
+                    <div class="company-name">msg systems ag</div>
+                    <div class="job-title">Java Trainee</div>
+                    <div class="duration">July 2014 - August 2014</div>
+                    <div class="website">msg.group</div>
+                </div>
+                <div class="description">
+                    <p>Java Training on AWT, Swing, JCF, JDBC, Hibernate, Java Servlet API, JSP, Ant, Maven, JavaEE, EJB, JPA, JPQL, AOP with AspectJ, Glassfish, WSDL, SOAP, JAX-WS, JUnit, Mockito, JSF</p>
+                </div>
+            </div>
+
+            <div class="experience-item animate-in">
+                <div class="experience-header">
+                    <div class="company-name">evoline (Accenture)</div>
+                    <div class="job-title">.NET Trainee</div>
+                    <div class="duration">July 2013 - September 2013</div>
+                    <div class="website">accenture.com</div>
+                </div>
+                <div class="description">
+                    <p>Research & Development on Automatic UI Testing & Continuous Integration</p>
+                    <div class="technologies">
+                        Technologies, tools: Selenium, C#, NUnit, Jenkins, TFS
+                    </div>
+                    <p>Put in practice the possibilities offered by Selenium on automated GUI testing.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h3 class="section-title">Education</h3>
+
+            <div class="education-item animate-in">
+                <div class="education-header">
+                    <div class="university-name">Babeș-Bolyai University</div>
+                    <div class="degree-title">BSc Computer Science</div>
+                    <div class="duration">2011 - 2014</div>
+                </div>
+
+                <div class="thesis">
+                    <div class="thesis-title">Thesis: SplitBill - Application for Tracking Everyday Expenses By Taking Pictures of Receipts</div>
+                    <p>Mobile app with REST API in backend.</p>
+                    <div class="technologies">
+                        Tech: Java, Spring Boot, MySQL, Apache Tomcat, Hibernate ORM, Tesseract OCR, Maven, Gradle, Swagger, Android, Retrofit 2
+                    </div>
+                    <div class="links">
+                        <a href="#" target="_blank" onclick="trackClick('Education', 'Link', 'Usage Demo')">Usage demo</a>
+                        <a href="#" target="_blank" onclick="trackClick('Education', 'Link', 'Technical Presentation')">Technical presentation</a>
+                    </div>
+                </div>
+
+                <div class="competition">
+                    <div class="project-title">Competition</div>
+                    <p>We've participated in Microsoft Imagine Cup - Games Competition in 2013 with "Team Impact" with a 3D game implemented in C# with XNA.</p>
+                    <div class="links">
+                        <a href="#" target="_blank" onclick="trackClick('Education', 'Link', 'Gameplay Demo')">Gameplay demo</a>
+                        <a href="#" target="_blank" onclick="trackClick('Education', 'Link', 'Trailer')">Trailer</a>
+                    </div>
+                </div>
+
+                <div class="fields-study">
+                    <div class="project-title">Fields of study</div>
+                    <ul>
+                        <li>Computer science fundamentals (Fundamentals of Programming, Mathematical Foundations of Computer Science, Algorithms and Data Structures, Object-Oriented Programming, Advanced Programming Methods, Functional and Logic Programming, Algorithms of Graph Theory, Formal Languages and Compiler Design)</li>
+                        <li>Fundamentals of mathematics (Mathematical Analysis, Algebra, Geometry, Probability Theory and Statistics, Numerical Calculus, Dynamical Systems)</li>
+                        <li>Software engineering (Software Engineering, Team and Individual Project, Software Verification and Validation, Human-Computer Interaction, Mobile Systems, CASE Tools, Design Patterns)</li>
+                        <li>Data modeling and processing (Databases, Transaction Management and Distributed Databases, Spatial Databases)</li>
+                        <li>Computer systems and architectures (Computer System Architecture, Operating systems, Distributed Operating Systems, Computer Networks)</li>
+                        <li>Artificial intelligence (AI, Intelligent Robots, Evolutionary Algorithms, Automated Theorem Proving)</li>
+                        <li>Programming technologies (Programming Systems and Environments, Web Programming)</li>
+                        <li>Interdisciplinarity (Multimedia, Image processing, Modeling and simulation)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="education-item animate-in">
+                <div class="education-header">
+                    <div class="university-name">Babeș-Bolyai University</div>
+                    <div class="degree-title">BSc Philosophy</div>
+                    <div class="duration">2008 - 2011</div>
+                </div>
+
+                <div class="thesis">
+                    <div class="thesis-title">Thesis: "Human Relations Mediated By Technology"</div>
+                    <p>Based on a rich English bibliography on theoretical projections of technology.</p>
+                </div>
+
+                <div class="fields-study">
+                    <div class="project-title">Fields of study</div>
+                    <ul>
+                        <li>Research Methods and Text Production</li>
+                        <li>Semiology - Theories of Sign and Interpretation</li>
+                        <li>Aesthetics, Contemporary Theories of Art</li>
+                        <li>Ethics, Applied Ethics</li>
+                        <li>Theory of Argumentation</li>
+                        <li>Symbolic Logic - Propositional Logic, Symbolic Logic - Predicate Logic</li>
+                        <li>Political Philosophy, Philosophy of Religion</li>
+                        <li>Philosophical Hermeneutics</li>
+                        <li>Ontology, Theory of Knowledge, Metaphysics</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="education-item animate-in">
+                <div class="education-header">
+                    <div class="university-name">Bolyai Farkas Theoretical High School</div>
+                    <div class="degree-title">Baccalaureate - Mathematics & Intensive Informatics</div>
+                    <div class="duration">2004 - 2008</div>
+                </div>
+                <p>I have attended several competitions in computer science and mathematics.</p>
+            </div>
+        </section>
+
+        <section id="more">
+            <h3 class="section-title">A Little More About Me</h3>
+
+            <div class="hobbies">
+                <p>Alongside my interests in software engineering some of my other interests and hobbies are:</p>
+                <ul>
+                    <li onclick="trackClick('Hobbies', 'Click', 'Outdoor Activities')">Scuba diving, skiing, trail running, kayaking/rafting, swimming</li>
+                    <li onclick="trackClick('Hobbies', 'Click', 'Music')">Guitar playing</li>
+                    <li onclick="trackClick('Hobbies', 'Click', 'Academic')">Philosophy, sociology</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div class="back-to-top" onclick="scrollToTop(); trackClick('Navigation', 'Click', 'Back to Top')">↑</div>
+
+    <footer>
+        <p>Balázs Sándor - sb.sandorbalazs@gmail.com</p>
+    </footer>
+</body>
+</html>
