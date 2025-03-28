@@ -241,3 +241,29 @@ document.addEventListener('DOMContentLoaded', function() {
         clearInterval(timeTrackingInterval);
     });
 });
+
+// Scroll down arrow functionality
+const scrollDownArrow = document.querySelector('.scroll-down-arrow');
+if (scrollDownArrow) {
+  scrollDownArrow.addEventListener('click', function() {
+    // Scroll down by the window height minus a bit
+    window.scrollBy({
+      top: window.innerHeight * 0.8,
+      behavior: 'smooth'
+    });
+    trackClick('Navigation', 'Click', 'Scroll Arrow');
+  });
+
+  // Hide arrow when at bottom of page
+  window.addEventListener('scroll', function() {
+    const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const currentPosition = window.scrollY;
+
+    // If we're near the bottom (within 100px), hide the arrow
+    if (scrollableHeight - currentPosition < 100) {
+      scrollDownArrow.classList.add('hide');
+    } else {
+      scrollDownArrow.classList.remove('hide');
+    }
+  });
+}

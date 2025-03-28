@@ -497,6 +497,51 @@ footer {
   }
 }
 
+/* Scroll down arrow */
+.scroll-down-arrow {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: var(--bg-secondary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--card-shadow);
+  z-index: 99;
+  animation: bounce 2s infinite;
+  color: var(--primary-color);
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-down-arrow:hover {
+  opacity: 1;
+  transform: translateX(-50%) scale(1.1);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  60% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+}
+
+/* Hide arrow when at bottom of page */
+.scroll-down-arrow.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .section-previews {
   display: flex;
   flex-wrap: wrap;
