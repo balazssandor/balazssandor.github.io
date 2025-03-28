@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" class="dark-mode">
 <head>
+    <meta name="description" content="Balázs Sándor is a Software & Data Engineer with experience at VF Corporation, BMW, GRUBHUB, Porsche and more. Specializing in software and cloud data engineering, NLP, and AI.">
+    <meta name="keywords" content="Software Engineer, Data Engineer, Java, Scala, Python, NLP, Generative AI, AWS, Apache Spark, Balázs Sándor Resume, CV, Portfolio">
+    <meta property="og:title" content="Balázs Sándor - Software & Data Engineer">
+    <meta property="og:description" content="Experienced software engineer in cloud data solutions, NLP, generative AI and microservices. Check out my projects, resume, and contact info.">
+    <meta property="og:image" content="https://balazssandor.github.io/images/profile.png">
+    <meta property="og:url" content="https://balazssandor.github.io">
+    <meta property="og:type" content="website">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balázs Sándor - Software & Data Engineer</title>
@@ -15,6 +23,22 @@
     <!-- External CSS and JS -->
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js" defer></script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Balázs Sándor",
+          "url": "https://balazssandor.github.io",
+          "image": "https://balazssandor.github.io/images/profile.png",
+          "jobTitle": "Software & Data Engineer",
+          "sameAs": [
+            "https://github.com/balazssandor",
+            "https://linkedin.com/in/balazssandor"
+          ],
+          "email": "mailto:sb.sandorbalazs@gmail.com",
+          "description": "Experienced Software and Data Engineer working with cloud technologies (AWS, Azure, GCP), Databricks, Java, Scala, Python, NLP, Generative AI, microservices. Formerly at VF Corp, BMW Group, GRUBHUB and Porsche."
+        }
+    </script>
 </head>
 <body>
     <div class="scroll-progress"></div>
@@ -25,7 +49,7 @@
             <div class="profile-image">
                 <div class="profile-image-placeholder">
                     <div style="text-align: center;">
-                      <img src="images/profile.png" style="width: 150px; height: 150px;">
+                      <img src="images/profile.png" alt="Balázs Sándor - Software and Data Engineer" style="width: 150px; height: 150px;">
                     </div>
                 </div>
             </div>
@@ -66,42 +90,52 @@
     <div class="container">
         <section id="about">
             <h3 class="section-title">About Me</h3>
-            <p>As a seasoned software and data engineer, I bridge the gap between technical innovation and business value across diverse industries. From automotive to e-commerce, I've navigated the full spectrum of technological environments—from legacy systems to cutting-edge cloud architectures. My engineering philosophy centers on creating maintainable, thoughtfully designed solutions that deliver lasting impact.</p>
+                <p>I'm a software and data engineer with experience across industries like automotive, food delivery platforms and e-commerce. I've worked with various technological environments — from legacy systems to modern cloud architectures — focusing on creating maintainable solutions that deliver lasting impact.</p>
 
-            <p>My expertise spans the entire data lifecycle, transforming raw information into actionable business intelligence through well-architected pipelines and intuitive dashboards. Beyond technical implementation, I've cultivated leadership skills through building and guiding cross-functional teams toward shared objectives.</p>
+                <p>My expertise spans microservices backend development and the entire data lifecycle, delivering cloud-native data solutions that transform raw information into actionable business intelligence through well-architected pipelines and intuitive dashboards. Beyond technical implementation, I've built and guided cross-functional teams toward shared objectives.</p>
 
-            <p>With a passion for natural language processing (NLP) that extends into my personal projects, I'm currently immersed in the rapidly evolving AI landscape, tracking emerging trends and exploring innovative architectural approaches. In 2024, my focus has expanded to include generative AI technologies and their practical applications within enterprise environments.</p>
+                <p>With a passion for natural language processing (NLP) that extends into my personal projects, I'm currently immersed in the rapidly evolving AI landscape, tracking emerging trends and exploring innovative architectural and technical approaches. In 2024, my focus has expanded to include generative AI technologies and their practical applications within enterprise environments.</p>
 
             <div class="skills">
                 <p>Core technical expertise:</p>
                 <div class="skill-badges">
-                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Java')">Java</span>
-                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Scala')">Scala</span>
-                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Python')">Python</span>
-                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'AWS')">AWS</span>
-                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Apache Spark')">Apache Spark</span>
+                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Cloud Architecture (AWS, Azure Databricks)')">Cloud Architecture (AWS, Azure Databricks)</span>
+                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Infrastructure as Code (Terraform)')">Infrastructure as Code (Terraform)</span>
+                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Data Engineering & Pipeline Development')">Data Engineering & Pipeline Development</span>
+                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Generative AI & LLM Integration')">Generative AI & LLM Integration, NLP</span>
+                    <span class="skill-badge" onclick="trackClick('Skills', 'Click', 'Python, Java, Scala Apache Spark')">Python, Java, Scala, Apache Spark</span>
                 </div>
             </div>
         </section>
 
         <div class="section-previews">
           <div class="preview-item" onclick="scrollToSection('experience')">
+            <a href="#experience" onclick="scrollToSection('experience')" class="preview-link" aria-label="Jump to Experience"></a>
             <div class="preview-icon">💼</div>
             <div class="preview-title">Experience</div>
-            <div class="preview-desc">VF Corporation, BMW Group, GRUBHUB & more</div>
+            <div class="preview-desc">VF Corporation, BMW, GRUBHUB, Porsche</div>
           </div>
           <div class="preview-item" onclick="scrollToSection('education')">
+            <a href="#education" onclick="scrollToSection('education')" class="preview-link" aria-label="Jump to Education"></a>
             <div class="preview-icon">🎓</div>
             <div class="preview-title">Education</div>
             <div class="preview-desc">Computer Science & Philosophy</div>
           </div>
           <div class="preview-item" onclick="scrollToSection('more')">
+            <a href="#more" onclick="scrollToSection('more')" class="preview-link" aria-label="Jump to Interests and Hobbies"></a>
             <div class="preview-icon">🏄‍♂️</div>
             <div class="preview-title">More</div>
             <div class="preview-desc">Interests & Hobbies</div>
           </div>
         </div>
 
+        <div class="scroll-down-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="8 12 12 16 16 12"></polyline>
+            <line x1="12" y1="8" x2="12" y2="16"></line>
+          </svg>
+        </div>
 
         <section id="experience">
             <h3 class="section-title">Experience</h3>
@@ -114,9 +148,9 @@
                     <div class="website">vfc.com</div>
                 </div>
                 <div class="description">
-                    <p>Working for VFC as a contractor on VF Analytics Platform</p>
-                    <p>Delivering AWS solutions for data pipelines. Building out a data lake in Redshift for brands like The North Face, Vans, Timberland, Dickies, Smartwool, icebreaker. Transforming data into value through dashboards, which can provide as a compass for business decisions.</p>
-                    <p>In 2025 work is happening in both Azure Databricks and on the AWS front. I am focused on data engineering and generative AI.</p>
+                    <p>Contracting with VFC on the VF Analytics Platform, delivering scalable AWS data pipeline solutions built with Infrastructure as Code (IaC).</p>
+                    <p>Engineered a Redshift-based data lake infrastructure supporting analytics for multiple brands including The North Face, Vans, Timberland, Dickies, Smartwool, and icebreaker. Design and implement dashboards that translate data into actionable business intelligence.</p>
+                    <p>Current work spans both Azure Databricks and AWS ecosystems, leveraging IaC for infrastructure deployment, concentrating on advanced data engineering, generative AI integration, and building an internal generative AI web platform.</p>
                 </div>
             </div>
 
@@ -247,8 +281,8 @@
                         Tech: Java, Spring Boot, MySQL, Apache Tomcat, Hibernate ORM, Tesseract OCR, Maven, Gradle, Swagger, Android, Retrofit 2
                     </div>
                     <div class="links">
-                        <a href="#" target="_blank" onclick="trackClick('Education', 'Link', 'Usage Demo')">Usage demo</a>
-                        <a href="#" target="_blank" onclick="trackClick('Education', 'Link', 'Technical Presentation')">Technical presentation</a>
+                        <a href="https://goo.gl/Bp6hSf" target="_blank" onclick="trackClick('Education', 'Link', 'Usage Demo')">Usage demo</a>
+                        <a href="https://goo.gl/SbtjfZ" target="_blank" onclick="trackClick('Education', 'Link', 'Technical Presentation')">Technical presentation</a>
                     </div>
                 </div>
 
@@ -256,8 +290,8 @@
                     <div class="project-title">Competition</div>
                     <p>We've participated in Microsoft Imagine Cup - Games Competition in 2013 with "Team Impact" with a 3D game implemented in C# with XNA.</p>
                     <div class="links">
-                        <a href="#" target="_blank" onclick="trackClick('Education', 'Link', 'Gameplay Demo')">Gameplay demo</a>
-                        <a href="#" target="_blank" onclick="trackClick('Education', 'Link', 'Trailer')">Trailer</a>
+                        <a href="http://www.youtube.com/watch?v=Hokp81p78X0" target="_blank" onclick="trackClick('Education', 'Link', 'Gameplay Demo')">Gameplay demo</a>
+                        <a href="http://www.youtube.com/watch?v=34qKtvs_GU0" target="_blank" onclick="trackClick('Education', 'Link', 'Trailer')">Trailer</a>
                     </div>
                 </div>
 
